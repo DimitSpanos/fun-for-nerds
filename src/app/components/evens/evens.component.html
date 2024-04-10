@@ -1,0 +1,12 @@
+<div class="text-start w-100  ">
+   @if (!dataFromInputTextEvens || dataFromInputTextEvens.length == 0) {
+      <span>No even length words</span>
+   } @else  {
+      @for (item of dataFromInputArrayEvens; track item) {
+         <span class="w-100 ">{{item}}</span><br>
+      }
+      
+   }
+</div>
+
+

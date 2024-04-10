@@ -1,0 +1,13 @@
+<div class="container-fluid w-50 pt-5  ">
+   <app-input-text (buttonSubmit)="onSubmit($event)"></app-input-text>
+
+   <div class="w-100 d-flex justify-content-between " >
+      <div class="w-50 ">
+         <app-evens  [dataFromInputTextEvens]="evenData"></app-evens>
+      </div>
+      <div class="w-50 ">
+         <app-odds  [dataFromInputTextOdds]="oddData"></app-odds>
+      </div>
+      
+   </div>
+</div>

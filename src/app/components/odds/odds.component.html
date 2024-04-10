@@ -1,0 +1,11 @@
+<div class="text-end  w-100">
+   @if (!dataFromInputTextOdds || dataFromInputTextOdds.length == 0) {
+      <span>No odd length words</span>
+   } @else  {
+      @for (item of dataFromInputArrayOdds; track item) {
+         <span >{{item}}</span><br>
+      }
+      
+   }
+</div>
+
